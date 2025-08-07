@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="wellness.css" />
+  <title>Services | GreenLife Wellness</title>
+
+  <style>
+   
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url('service.gif') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav ul li a.active {
+      border-bottom: 2px solid #4caf50;
+    }
+
+    .services-preview {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .services-preview h2 {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .service-card {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      width: 220px;
+      text-align: center;
+      backdrop-filter: blur(4px);
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .service-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .service-card h3 {
+      margin-top: 15px;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">GreenLife Wellness</div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="service.html" class="active">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.php">Login</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+  <section class="services-preview">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <img src="yoga.gif" alt="Yoga" />
+        <h3>Yoga & Meditation</h3>
+      </div>
+      <div class="service-card">
+        <img src="aurweda.gif" alt="Ayurveda" />
+        <h3>Ayurvedic Therapy</h3>
+      </div>
+      <div class="service-card">
+        <img src="therapy.gif" alt="Massage" />
+        <h3>Massage Therapy</h3>
+      </div>
+      <div class="service-card">
+        <img src="diat.gif" alt="Diet" />
+        <h3>Nutrition & Diet Consultation</h3>
+      </div>
+      <div class="service-card">
+        <img src="Physiotherapy.gif" alt="Physiotherapy" />
+        <h3>Physiotherapy</h3>
+      </div>
+      <div class="service-card">
+        <img src="Acupuncture.gif" alt="Acupuncture" />
+        <h3>Acupuncture</h3>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
